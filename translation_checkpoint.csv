@@ -1,0 +1,3060 @@
+instruction_en
+"Write a Python function to remove the first and last occurrences of a given character from a string.
+
+Example:
+
+```python
+def remove_Occ(s: str, ch: str) -> str:
+```
+"
+"Write a function to sort a given matrix in ascending order according to the sum of its rows.
+
+```python
+def sort_matrix(M: list[list[int]]) -> list[list[int]]:
+```
+"
+"Write a function that counts the most common words in a dictionary.
+
+```python
+def count_common(words: list[str]) -> list[tuple[str, int]]:
+```
+"
+"Write a Python function to find the volume of a triangular prism.
+Example:
+def find_Volume(l: int, b: int, h: int) -> int:
+    # your code
+    return l
+"
+"Write a function to split a string into lowercase letters.
+
+```python
+def split_lowerstring(text: str) -> list[str]:
+```
+"
+"Write a function to find a lowercase sequence.
+
+```python
+def text_lowercase_underscore(text: str) -> str:
+```
+"
+"Write a function to find the perimeter of a square.
+
+```python
+def square_perimeter(a: int) -> int:
+```
+"
+"Write a function to remove characters present in the second string from the first string.
+
+```python
+def str_to_list(string: str, string2: str) -> str:
+```
+"
+"Write a function to find out whether a given integer array has any duplicate elements.
+
+```python
+def test_duplicate(arraynums: list[int]) -> bool:
+```
+"
+"Write a function to check if a given number is a Woodall number.
+
+Example:
+def is_woodall(x: int) -> bool:
+    # your code
+    return x
+"
+"Write a function to find the first n multiples of a number m.
+
+```python
+def multiples_of_num(m: int, n: int) -> list[int]:
+```
+"
+"Write a function to find the first duplicate element in an array of integers.
+
+```python
+def find_first_duplicate(nums: list[int]) -> int:
+```
+"
+"Write a Python function to find the maximum sum of elements from a list of lists.
+
+```python
+def maximum_Sum(list1: list[list[int]]) -> int:
+```
+"
+"Write a function that converts a given binary number to its decimal equivalent.
+
+```python
+def binary_to_decimal(binary: int) -> int:
+```
+"
+"Write a Python function to find the product of non-repeating elements in a given array.
+
+```python
+def find_Product(arr: list[int], n: int) -> int:
+```
+"
+"Write a function to check if the given tuple list contains K elements.
+
+Example:
+```python
+def check_k_elements(test_list: list[tuple], K: int) -> bool:
+```
+"
+"Write a Python function to remove all digits from a list of strings.
+
+```python
+def remove(list: list[str]) -> list[str]:
+```
+"
+"Write a Python function to find the binomial coefficient.
+
+Example:
+```python
+def binomial_Coeff(n: int, k: int) -> int:
+```
+"
+"Write a Python function to find the element that occurs an odd number of times.
+
+Example:
+```python
+def get_Odd_Occurrence(arr: list[int], arr_size: int) -> int:
+    # your code
+    return
+```
+"
+"Write a Python function to count all substrings that start and end with the same character.
+
+```python
+def check_Equality(s: str) -> int:
+```
+"
+"Write a function that uses the heap queue algorithm to find the top k most frequently occurring integers from a sorted list of distinct integers.
+
+```python
+def func(nums: list[list[int]], k: int) -> list[int]:
+```
+"
+"Write a Python function to find the largest prime factor of a given number.
+
+```python
+def max_Prime_Factors (n: int) -> int:
+```
+"
+"Write a Python function to convert a decimal number to a binary number.
+
+Example:
+
+```python
+def decimal_To_Binary(N: int) -> int:
+```
+"
+"Write a python function to find the missing number in a sorted array.
+Example:
+```python
+def find_missing(ar: list[int], N: int) -> int:
+```
+"
+"Write a function to find the nth rectangular number.
+
+```python
+def find_rect_num(n: int) -> int:
+```"
+"Write a Python function to find the Nth digit of the exact fraction of two given numbers.
+
+```python
+def find_Nth_Digit(p: int, q: int, N: int) -> int:
+```
+"
+"Write a function to sort a mixed list of integers and strings.
+
+```python
+def sort_mixed_list(mixed_list: list) -> list:
+```
+"
+"Write a function to find the division result of the first even and odd numbers in a given list.
+Example:
+def div_even_odd(list1: list[int]) -> int:
+"
+"Write a function to check if the characters of a given string can be rearranged such that no two adjacent characters are the same.
+
+```python
+def rearange_string(S: str) -> str:
+```
+"
+"Write a function that finds the frequency of elements of a given list of lists using the collections module.
+
+```python
+def freq_element(nums: list[list[int]]) -> dict[int, int]:
+```
+"
+"Write a function to filter even numbers using a lambda function.
+
+Example:
+```python
+def filter_evennumbers(nums: list[int]) -> list[int]:
+```
+"
+"Write a Python function to find the sum of repeating elements in a given array.
+
+```python
+def find_Sum(arr: list[int], n: int) -> int:
+```
+"
+"Write a function to find a sequence of lowercase letters joined with an underscore using regular expressions.
+
+```python
+def text_match(text: str) -> str:
+```
+"
+"Write a function that matches a word at the beginning of a string.
+
+```python
+def text_match_string(text: str) -> str:
+```
+"
+"Write a function to find the greatest common divisor (GCD) of the elements of a given array.
+
+```python
+def find_gcd(arr: list[int]) -> int:
+```
+"
+"Write a Python function that determines whether all numbers in a given list are distinct from each other.
+
+Example:
+
+def test_distinct(data: list[int]) -> bool:
+    # your code
+    return data
+"
+"Write a Python function to find the last digit when the factorial of `a` divides the factorial of `b`.
+
+```python
+def compute_Last_Digit(A: int, B: int) -> int:
+```
+"
+"Write a Python function to set all odd bits of a given number.
+
+```python
+def odd_bit_set_number(n: int) -> int:
+```
+"
+"Write a function to extract either the first or a specified element from a given two-dimensional list.
+
+```python
+def specified_element(nums: list[list[int]], N: int) -> list[int]:
+```
+"
+"Write a function to find the list with the minimum length using a lambda function.
+
+```python
+def min_length_list(input_list: list[list[int]]) -> tuple[int, list[int]]:
+```
+"
+"Write a function to check if a triangle is equilateral.
+
+```python
+def check_equilateral(x: int, y: int, z: int) -> bool:
+```
+"
+"Write a function to calculate the area of a parallelogram.
+
+```python
+def parallelogram_area(b: int, h: int) -> int:
+```
+"
+"Write a Python function to check if the first and last characters of a given string are equal.
+
+```python
+def check_Equality(str: str) -> str:
+```
+"
+"Write a function that sorts the given array using counting sort.
+
+```python
+def counting_sort(my_list: list[int]) -> list[int]:
+```
+"
+"Write a function to find the T-th term of a geometric series.
+Example:
+```python
+def tn_gp(a: int, n: int, r: int) -> int:
+```
+"
+"Write a python function to check if a given number is one less than twice its reverse.
+Example:
+def rev(num: int) -> bool:
+    # your code
+    return num
+"
+"Write a Python function to create the largest possible number with the given digits.
+
+```python
+def find_Max_Num(arr: list[int], n: int) -> int:
+```
+"
+"Write a Python function to check if two integers have opposite signs.
+Example:
+def opposite_Signs(x: int, y: int) -> bool:
+    # your code
+    return
+"
+"Write a function to find the nth octagonal number.
+
+```python
+def is_octagonal(n: int) -> int:
+```
+"
+"Write a function to find the maximum length of a subarray with differences between adjacent elements for a given array.
+
+```python
+def max_len_sub(arr: list[int], n: int) -> int:
+```
+"
+"Write a Python function to count the substrings of a number where the digits are equal to their length.
+
+```python
+def count_Substrings(s: str, n: int) -> int:
+```
+"
+"Write a Python function to find the smallest number in a list.
+
+```python
+def smallest_num(xs: list[int]) -> int:
+```
+"
+"Write a function to find the maximum difference among the available pairs in the given tuple list.
+
+```python
+def max_difference(test_list: list[tuple[int, int]]) -> int:
+```
+"
+"Write a function to sort a list of tuples using lambda.
+Example:
+def subject_marks(subjectmarks: list[tuple[str, int]]) -> list[tuple[str, int]]:
+    # your code
+    return subjectmarks
+"
+"Write a function to calculate the sum of a recursively defined list.
+
+```python
+def recursive_list_sum(data_list: list) -> int:
+```
+"
+"Write a Python function to count the number of positive numbers in a list.
+Example:
+def pos_count(list: list[int]) -> int:
+    # your code
+    return
+"
+"Write a function to find the number of ways to partition a set, given the Bell number.
+
+```python
+def bell_number(n: int) -> int:
+```
+"
+"Write a Python function to check if the given array is monotonic.
+
+Example:
+def is_Monotonic(A: list[int]) -> bool:
+    # your code
+    return A
+"
+"Write a function to check if a list contains a given sublist.
+
+Example:
+```python
+def is_sublist(l: list, s: list) -> bool:
+```
+"
+"Write a function that determines if all tuples in a list have the same length.
+
+```python
+def find_equal_tuple(Input: list[tuple], k: int) -> str:
+```
+"
+"Write a function that sorts a list of elements using Comb Sort.
+
+Example:
+```python
+def comb_sort(nums: list[int]) -> list[int]:
+```
+"
+"Write a Python function to check if a given number can be represented as the difference of two squares.
+
+```python
+def dif_Square(n: int) -> bool:
+```
+"
+"Write a function to split a given string by multiple delimiters using regex.
+
+```python
+def multiple_split(text: str) -> list[str]:
+```
+"
+"Write a function that checks if an array follows a given sequence of patterns.
+
+```python
+def is_samepatterns(colors: list[str], patterns: list[str]) -> bool:
+```
+"
+"Write a function to find tuples in a list where all elements are divisible by k.
+
+```python
+def find_tuples(test_list: list[tuple[int, ...]], K: int) -> str:
+```
+"
+"Write a Python function to count the number of squares in a rectangle.
+
+```python
+def count_Squares(m: int, n: int) -> int:
+```
+"
+"Write a Python function to find the difference between the sum of even digits and the sum of odd digits.
+
+```python
+def is_Diff(n: int) -> bool:
+```
+"
+"Write a Python function to find the count of integers with an odd number of set bits.
+
+```python
+def count_With_Odd_SetBits(n: int) -> int:
+```
+"
+"Write a Python function to check if the length of a word is odd.
+
+```python
+def word_len(s: str) -> bool:
+```
+"
+"Write a function to find the nth tetrahedral number.
+
+```python
+def tetrahedral_number(n: int) -> float:
+```
+"
+"Write a function that zips two tuples.
+
+```python
+def zip_tuples(test_tup1: tuple, test_tup2: tuple) -> list:
+```
+"
+"Write a function to find the volume of a sphere.
+Example:
+def volume_sphere(r: float) -> float:
+    # your code
+    return
+"
+"Write a Python function to find the character formed by adding all the characters of the given string.
+
+Example:
+```python
+def get_Char(strr: str) -> str:
+```
+"
+"Write a function to find the n-th number of the Newman-Conway sequence.
+
+```python
+def sequence(n: int) -> int:
+```
+"
+"Write a function to find the surface area of a sphere.
+Example:
+```python
+def surfacearea_sphere(r: float) -> float:
+```
+"
+"Write a function to find the nth centered hexagonal number.
+
+```python
+def centered_hexagonal_number(n: int) -> int:
+```
+"
+"Write a function that merges three dictionaries into a single dictionary.
+
+```python
+def merge_dictionaries_three(dict1: dict, dict2: dict, dict3: dict) -> dict:
+```
+"
+"Write a function to get the frequency of elements in a list.
+Example:
+def freq_count(list1: list) -> dict:
+    # your code
+    return list1
+"
+"Write a function to find the closest number smaller than n.
+
+```python
+def closest_num(N: int) -> int:
+```
+"
+"Write a Python function to find the length of the longest word.
+
+Example:
+```python
+def len_log(list1: list[str]) -> int:
+```
+"
+"Write a function to check if a substring is present in a list of string values.
+
+```python
+def find_substring(str1: list[str], sub_str: str) -> bool:
+```"
+"Write a function to check if a given number is undulating.
+
+```python
+def is_undulating(n: str) -> bool:
+```
+"
+"Write a function to calculate the value of 'a' raised to the power of 'b'.
+
+```python
+def power(a: int, b: int) -> int:
+```
+"
+"Write a function to extract the record corresponding to the minimum value index from a given tuple.
+
+```python
+def index_minimum(test_list: list[tuple[str, int]]) -> str:
+```
+"
+"Write a Python function to find the minimum length of sublists within a list.
+
+```python
+def Find_Min_Length(lst: list[list[any]]) -> int:
+```
+"
+"Write a Python function to find the number of divisors of a given integer.
+
+```python
+def divisor(n: int) -> int:
+```
+"
+"Write a function to find the frequency count of elements across a list of lists.
+
+```python
+def frequency_lists(list1: list[list[int]]) -> dict[int, int]:
+```
+"
+"Write a function that multiplies all the numbers in a list and divides the result by the length of the list.
+
+```python
+def multiply_num(numbers: tuple) -> float:
+```
+"
+"Write a function that converts a given decimal number to its binary equivalent.
+
+```python
+def decimal_to_binary(n: int) -> str:
+```
+"
+"Write a function to find the next smallest palindrome for a given number.
+
+```python
+def next_smallest_palindrome(num: int) -> int:
+```
+"
+"Write a function to find the k-th smallest element in the given array.
+Example:
+def kth_element(arr: list[int], n: int, k: int) -> int:
+    # your code
+    return arr
+"
+"Write a function that converts a snake case string to a camel case string.
+
+```python
+def snake_to_camel(word: str) -> str:
+```
+"
+"Write a function to find the Eulerian number a(n, m).
+
+```python
+def eulerian_num(n: int, m: int) -> int:
+```
+"
+"Write a function to sort each sublist of strings in a given list of lists using a lambda function.
+
+```python
+def sort_sublists(input_list: list[list[str]]) -> list[list[str]]:
+```
+"
+"Write a Python function to count the number of True boolean values in a given list.
+
+```python
+def count(lst: list[bool]) -> int:
+```
+"
+"Write a function to add the given tuples to the given list.
+
+Example:
+```python
+def add_lists(test_list: list, test_tup: tuple) -> tuple:
+```
+"
+"Write a Python function to count the hexadecimal numbers within a given range.
+
+```python
+def count_Hexadecimal(L: int, R: int) -> int:
+```
+"
+"Write a function to merge multiple sorted inputs into a single sorted iterable using a heap queue algorithm.
+
+```python
+def merge_sorted_list(num1: list[int], num2: list[int], num3: list[int]) -> list[int]:
+```
+"
+"Write a Python function to find the number of rotations of a binary string that are odd-equivalent.
+
+```python
+def odd_Equivalent(s: str, n: int) -> int:
+```
+"
+"Write a function that extracts the missing ranges from a given list, considering the provided start and end range values.
+
+```python
+def extract_missing(test_list: list[tuple[int, int]], strt_val: int, stop_val: int) -> list[tuple[int, int]]:
+```
+"
+"Write a function that finds the common elements in given nested lists.
+
+```python
+def common_in_nested_lists(nestedlist: list[list[int]]) -> list[int]:
+```
+"
+"Write a Python function to find the perimeter of a cylinder.
+
+```python
+def perimeter(diameter: int, height: int) -> int:
+```
+"
+"Write a function to check if a string represents an integer.
+Example:
+```python
+def check_integer(text: str) -> bool:
+```
+"
+"Write a function to assign a frequency to each tuple in a given list of tuples.
+
+```python
+def assign_freq(test_list: list[tuple]) -> list[tuple]:
+```
+"
+"Write a function to check if all dictionaries in a list are empty.
+
+Example:
+```python
+def empty_dit(list1: list[dict]) -> bool:
+```
+"
+"Write a function to convert a given tuple of positive integers into a single integer.
+Example:
+```python
+def tuple_to_int(nums: tuple[int, ...]) -> int:
+```
+"
+"Write a function that converts all possible convertible elements in a list to floats.
+
+```python
+def list_to_float(test_list: list) -> list:
+```
+"
+"Write a function to convert a string into a list.
+Example:
+def string_to_list(string: str) -> list[str]:
+    # your code
+    return string
+"
+"Write a Python function to find the element that appears only once in a sorted array.
+
+Example:
+```python
+def search(arr: list[int], n: int) -> int:
+    # your code
+    return arr
+```
+"
+"Write a function to find the maximum product from pairs of tuples within a given list.
+Example:
+def max_product_tuple(list1: list[tuple[int, int]]) -> int:
+    # your code
+    return list1
+"
+"Write a function to find a triplet with the given array sum.
+
+Example:
+```python
+def check_triplet(A: list[int], n: int, sum: int, count: int) -> bool:
+```
+"
+"Write a function to find the nth smart number.
+
+Example:
+```python
+def smartNumber(n: int) -> int:
+```
+"
+"Write a function to calculate the sum of all amicable numbers within a given limit, exclusively.
+
+Example:
+def amicable_numbers_sum(limit: int) -> int:
+    # your code
+    return limit
+"
+"Write a function to get the angle of a complex number.
+
+```python
+def angle_complex(z: complex) -> float:
+```
+"
+"Write a function to find the maximum difference between the number of 0s and 1s in any substring of a given binary string.
+
+```python
+def find_length(string: str, n: int) -> int:
+```
+"
+"Write a Python function to find the sum of the common divisors of two given numbers.
+
+```python
+def sum(a: int, b: int) -> int:
+```
+"
+"Write a function to multiply two integers without using the * operator in Python.
+Example:
+```python
+def multiply_int(x: int, y: int) -> int:
+```
+"
+"Write a function that filters a given list of words to return a shorter list containing only the words longer than n.
+
+```python
+def long_words(n: int, str: str) -> list[str]:
+```
+"
+"Write a function to calculate a magic square.
+
+Example:
+def magic_square_test(my_matrix: list[list[int]]) -> bool:
+    # your code
+    return my_matrix
+"
+"Write a function to find the most frequent item in a given list.
+
+```python
+def max_occurrences(nums: list[int]) -> tuple[int, int]:
+```
+"
+"Write a Python function that reverses only the vowels in a given string.
+
+Example:
+
+def reverse_vowels(str1: str) -> str:
+    # your code
+    return str1
+"
+"Write a function that converts a tuple to a string.
+
+```python
+def tup_string(tup1: tuple) -> str:
+```
+"
+"Write a function using a lambda function to calculate the sum of negative numbers from a given list of numbers.
+
+```python
+def sum_negativenum(nums: list[int]) -> int:
+```
+"
+"Write a Python function that checks whether the last element of a given array is even or odd after performing an operation p times.
+
+```python
+def check_last(arr: list[int], n: int, p: int) -> str:
+```
+"
+"Write a function to find the nth hexagonal number.
+
+```python
+def hexagonal_num(n: int) -> int:
+```
+"
+"Write a function to calculate electricity bill.
+
+Example:
+def cal_electbill(units: int) -> float:
+    # your code
+    return 
+"
+"Write a function to find the ratio of zeros in an array of integers.
+
+```python
+def zero_count(nums: list[int]) -> float:
+```
+"
+"Write a Python function to check if a given number can be represented as the sum of non-zero powers of 2.
+
+```python
+def is_Sum_Of_Powers_Of_Two(n: int) -> bool:
+```
+"
+"Write a function to find the circumference of a circle.
+Example:
+```python
+def circle_circumference(r: float) -> float:
+```
+"
+"Write a function to extract the elements that appear only once from a given list of tuples.
+Example:
+def extract_singly(test_list: list[tuple]) -> list:
+    # your code
+    return test_list
+"
+"Write a function to sort a list of elements using pancake sorting.
+Example:
+def pancake_sort(nums: list[int]) -> list[int]:
+    # your code
+    return nums
+"
+"Write a function that counts the number of identical pairs present in three lists.
+
+```python
+def count_samepair(list1: list[int], list2: list[int], list3: list[int]) -> int:
+```
+"
+"Write a function to find the number of lists present in a given tuple.
+
+```python
+def find_lists(Input: tuple) -> int:
+```
+"
+"Write a Python function to find the sum of the absolute differences of all pairs in a given array.
+
+```python
+def sum_Pairs(arr: list[int], n: int) -> int:
+```
+"
+"Write a Python function to find the maximum absolute difference between any two elements in a given array.
+
+```python
+def max_Abs_Diff(arr: tuple, n: int) -> int:
+```
+"
+"Write a function to find the sum of the ASCII values of all characters in a string.
+
+```python
+def ascii_value_string(str1: str) -> int:
+```
+"
+"Write a function to find the maximum path sum of a given triangle.
+
+```python
+def max_path_sum(tri: list[list[int]], m: int, n: int) -> int:
+```
+"
+"Write a function to divide a number into two parts such that the sum of their digits is maximized.
+
+```python
+def sum_digits_single(x: int) -> int:
+```
+"
+"Write a function to find the length of the longest sub-sequence in which the difference between adjacent elements is one for a given array.
+
+```python
+def longest_subseq_with_diff_one(arr: list[int], n: int) -> int:
+```
+"
+"Write a Python function to find out whether a given number is present in the infinite sequence.
+
+```python
+def does_Contain_B(a: int, b: int, c: int) -> bool:
+```
+"
+"Write a Python function to check if the given number is co-prime.
+
+Example:
+```python
+def gcd(p: int, q: int) -> bool:
+```
+"
+"Write a function that sorts a given array using merge sort.
+
+```python
+def merge(a: list[int]) -> list[int]:
+```
+"
+"Write a function to find the vertex of a parabola.
+
+```python
+def parabola_vertex(a: float, b: float, c: float) -> tuple[float, float]:
+```
+"
+"Write a function to extract each specified element from a given two-dimensional list.
+
+```python
+def specified_element(nums: list[list[int]], N: int) -> list[int]:
+```
+"
+"Write a Python function to toggle all even bits of a given number.
+Example:
+def even_bit_toggle_number(n: int) -> int:
+    # your code
+    return n
+"
+"Write a function that converts a tuple of string values to a tuple of integer values.
+
+```python
+def tuple_int_str(tuple_str: tuple[tuple[str, str], tuple[str, str]]) -> tuple[tuple[int, int], tuple[int, int]]:
+```
+"
+"Write a function to perform run-length encoding on a list.
+
+```python
+def encode_list(list1: list) -> list:
+```
+"
+"Write a Python function that determines the minimum number of operations needed to make all elements in an array equal, given that you can perform at most 'k' operations.
+
+```python
+def min_Ops(arr: list[int], n: int, k: int) -> int:
+```
+"
+"Write a function to print the season for a given month and day.
+
+Example:
+```python
+def month_season(month: str, days: int) -> str:
+```
+"
+"Write a function for x and y that satisfies ax + by = n.
+
+```python
+def solution(a: int, b: int, n: int) -> tuple:
+```
+"
+"Write a function to remove all elements present in one list from another list.
+
+```python
+def remove_elements(list1: list[int], list2: list[int]) -> list[int]:
+```
+"
+"Write a function to calculate the sum of the positive integers in the series n + (n-2) + (n-4) ... (until n-x <= 0).
+
+```python
+def sum_series(n: int) -> int:
+```
+"
+"Write a function to calculate the area of a regular polygon.
+
+```python
+def area_polygon(s: int, l: int) -> float:
+```
+"
+"Write a Python function that verifies if the divisor sum is the same.
+
+Example:
+```python
+def divSum(n: int, m: int) -> bool:
+```
+"
+"Write a Python function to count the number of characters in a given string (containing lowercase and uppercase letters) that are in the same position as in the English alphabet.
+
+```python
+def count_char_position(str1: str) -> int:
+```
+"
+"Write a Python function that counts pairs with XOR.
+
+Example:
+def find_even_Pair(A: list[int], N: int) -> int:
+    # your code
+    return 
+"
+"Write a Python function to find the smallest power of 2 that is greater than or equal to n.
+
+```python
+def next_Power_Of_2(n: int) -> int:
+```
+"
+"Write a Python function to find the frequency of a number in a given array.
+
+```python
+def frequency(a: list[int], x: int) -> int:
+```
+"
+"Write a function to calculate the nth Pell number.
+
+```python
+def get_pell(n: int) -> int:
+```
+"
+"Write a function to find the sum of numbers in a list between a specified range of indices.
+
+```python
+def sum_range_list(list1: list[int], m: int, n: int) -> int:
+```
+"
+"Write a function to find the perimeter of a pentagon.
+
+```python
+def perimeter_pentagon(a: int) -> int:
+```
+"
+"Write a function to find the number of occurrences of the substring 'std' in a given string.
+
+```python
+def count_occurance(s: str) -> int:
+```
+"
+"Write a function to remove everything except alphanumeric characters from a string.
+
+Example:
+def remove_splchar(text: str) -> str:
+    # your code
+    return text
+"
+"Write a function that groups a sequence of key-value pairs into a dictionary of lists.
+
+```python
+def group_keyvalue(l: list[tuple]) -> dict[str, list[int]]:
+```
+"
+"Write a function that checks the validity of a string of parentheses.
+
+```python
+def is_valid_parenthese(str1: str) -> bool:
+```
+"
+"Write a function to find the perimeter of a triangle.
+
+```python
+def perimeter_triangle(a: int, b: int, c: int) -> int:
+```
+"
+"Write a Python function to find two distinct numbers whose least common multiple (LCM) falls within a given range.
+
+```python
+def answer(L: int, R: int) -> tuple[int, int]:
+```
+"
+"Write a function to search for some literal strings in a string.
+
+```python
+def string_literals(patterns: list[str], text: str) -> str:
+```
+"
+"Write a function to determine if a given number is a Keith number.
+
+```python
+def is_num_keith(x: int) -> bool:
+```
+"
+"Write a function to calculate the distance between two points using latitude and longitude.
+
+```python
+def distance_lat_long(slat: float, slon: float, elat: float, elon: float) -> float:
+```
+"
+"Write a function that finds the longest common prefix among a given set of strings.
+
+```python
+def common_prefix_util(strs: list[str], n: int) -> str:
+```
+"
+"Write a function to find uppercase, lowercase, special characters, and numeric values using regex.
+
+```python
+def find_character(string: str) -> tuple[list[str], list[str], list[str], list[str]]:
+```
+"
+"Write a function to count all distinct pairs with difference equal to k in a given array.
+
+```python
+def count_pairs(arr: list[int], n: int, k: int) -> int:
+```
+"
+"Write a function to find all the values in a list that are greater than a specific number.
+
+```python
+def greater_specificnum(list: list[int], num: int) -> list[int]:
+```
+"
+"Write a function to find the focus of a parabola.
+
+```python
+def parabola_focus(a: float, b: float, c: float) -> tuple[float, float]:
+```
+"
+"Write a function to search for specific literal strings within a string using regular expressions.
+
+```python
+def check_literals(text: str, patterns: list[str]) -> str:
+```
+"
+"Write a function to find the length of the longest common subsequence for two given sequences.
+
+```python
+def longest_common_subsequence(X: str, Y: str, m: int, n: int) -> int:
+```
+"
+"Write a Python function to check if a given number can be represented by the product of two squares.
+
+Example:
+```python
+def prod_Square(n: int) -> bool:
+```
+"
+"Write a Python function to find the first missing positive number.
+
+```python
+def first_Missing_Positive(arr: list[int], n: int) -> int:
+```
+"
+"Write a Python function to count the number of integral points located inside a square.
+
+Example:
+```python
+def count_Intgral_Points(x1: int, y1: int, x2: int, y2: int) -> int:
+```
+"
+"Write a function to check if a given month name has 30 days.
+
+Example:
+```python
+def check_monthnumber(monthname3: str) -> bool:
+```
+"
+"Write a Python function to check if a string contains at least one letter and one number.
+
+```python
+def check_String(str: str) -> bool:
+```
+"
+"Write a function to remove duplicates from a given tuple.
+
+```python
+def remove_tuple(test_tup: tuple) -> tuple:
+```
+"
+"Write a Python function to convert an octal number to a decimal number.
+
+Example:
+```python
+def octal_To_Decimal(n: int) -> int:
+```
+"
+"Write a Python function to find the first occurrence of an element in a sorted array.
+
+```python
+def first(arr: list[int], x: int, n: int) -> int:
+```
+"
+"Write a function that removes all tuples of length k.
+
+```python
+def remove_tuples(test_list: list[tuple], K: int) -> list[tuple]:
+```
+"
+"Write a function to perform element-wise exponentiation of two given tuples.
+Example:
+def find_exponentio(test_tup1: tuple, test_tup2: tuple) -> tuple:
+    # your code
+    return test_tup1
+"
+"Write a function to find the largest triangle that can be inscribed within a circle.
+
+```python
+def largest_triangle(r: int, h: int) -> float:
+```
+"
+"Write a Python function that finds the highest power of 2 that is less than or equal to a given number.
+
+```python
+def highest_Power_of_2(n: int) -> int:
+```
+"
+"Write a function to find all index positions of the maximum value in a given list.
+
+```python
+def position_max(list1: list[int]) -> list[int]:
+```
+"
+"Write a Python function to check if all elements of a list are the same.
+
+Example:
+```python
+def chkList(lst: list) -> bool:
+```
+"
+"Write a function to remove characters at even indices from a string.
+
+```python
+def remove_even(str1: str) -> str:
+```
+"
+"Write a Python function that finds the Hamming distance between two integers.
+
+Example:
+```python
+def hamming_Distance(n1: int, n2: int) -> int:
+```
+"
+"Write a Python function to count the occurrences of a given character in a string.
+
+```python
+def count(s: str, c: str) -> int:
+```
+"
+"Write a function to find the inverses of the tuple elements in a given tuple list.
+
+```python
+def inversion_elements(test_tup: tuple) -> tuple:
+```
+"
+"Write a function to concatenate adjacent elements in the given tuples.
+
+```python
+def concatenate_elements(test_tup: tuple) -> tuple:
+```
+"
+"Write a function to compute the length of the longest repeating subsequence such that the two subsequences do not have the same string character at the same position.
+
+```python
+def find_longest_repeating_subseq(str: str) -> int:
+```
+"
+"Write a function using regex to check if the given decimal is with precision 2.
+
+Example:
+```python
+def is_decimal(num: str) -> bool:
+```
+"
+"Write a function that removes the smallest element from a given heap and then inserts a new item.
+
+```python
+def heap_replace(heap: list[int], a: int) -> list[int]:
+```
+"
+"Write a function to check if a given string contains only a specific set of characters using regex.
+
+```python
+def is_allowed_specific_char(string: str) -> bool:
+```
+"
+"Write a Python function that counts numbers that have both the Oth and Nth bits set.
+
+```python
+def count_Num(n: int) -> int:
+```
+"
+"Write a Python function to find the sum of the fourth powers of the first n natural numbers.
+
+```python
+def fourth_Power_Sum(n: int) -> int:
+```
+"
+"Write a function to perform concatenation of two string tuples.
+
+```python
+def concatenate_strings(test_tup1: tuple[str, ...], test_tup2: tuple[str, ...]) -> tuple[str, ...]:
+```
+"
+"Write a function to convert radians to degrees.
+
+```python
+def degree_radian(radian: float) -> float:
+```
+"
+"Write a function to decode a run-length encoded list.
+
+```python
+def decode_list(alist: list) -> list:
+```
+"
+"Write a function to check if a nested list is a subset of another nested list.
+
+```python
+def check_subset_list(list1: list[int], list2: list[list[int]]) -> bool:
+```
+"
+"Write a Python function to find the first repeating character in a given string.
+
+```python
+def first_Repeated_Char(str: str) -> str:
+```
+"
+"Write a python function to find the minimum number of operations required to make two numbers equal.
+
+```python
+def min_Operations(A: int, B: int) -> int:
+```
+"
+"Write a function to extract the K maximum and minimum elements from a given tuple.
+
+```python
+def extract_min_max(test_tup: tuple, K: int) -> tuple:
+```
+"
+"Write a function that replaces a maximum of n occurrences of spaces, commas, or periods with colons.
+
+```python
+def replace_max_specialchar(text: str, n: int) -> str:
+```
+"
+"Write a Python function to find the first even number in a list of numbers.
+
+```python
+def first_even(nums: list[int]) -> int:
+```
+"
+"Write a function to check if all elements of a tuple are of the same data type.
+
+```python
+def check_type(test_tuple: tuple) -> bool:
+```
+"
+"Write a function to check if a given element is a majority element in a sorted array.
+
+```python
+def is_majority(arr: list[int], n: int, x: int) -> bool:
+```
+"
+"Write a Python function to count the set bits of a given number.
+
+```python
+def count_Set_Bits(n: int) -> int:
+```
+"
+"Write a Python function to find the minimum element in a sorted and rotated array.
+
+```python
+def find_Min(arr: list[int], low: int, high: int) -> int:
+```
+"
+"Write a Python function to remove characters from a given string which have odd index values.
+
+Example:
+```python
+def odd_values_string(str: str) -> str:
+```
+"
+"Write a function that takes at least three numbers as input.
+
+```python
+def min_of_three(a: int, b: int, c: int) -> int:
+```
+"
+"Write a Python function to check if all bits are set within a given range.
+
+```python
+def all_Bits_Set_In_The_Given_Range(n: int, l: int, r: int) -> bool:
+```
+"
+"Write a function to rearrange the elements of a given array such that all negative elements appear before all positive elements.
+
+```python
+def re_arrange_array(arr: list[int], n: int) -> list[int]:
+```
+"
+"Write a function to replace any spaces in a string with a given character.
+Example:
+def replace_blank(str1: str, char: str) -> str:
+    # your code
+    return str1
+"
+"Write a function to find the maximum sum of a right triangle given a number.
+
+```python
+def max_sum(tri: list[list[int]], n: int) -> int:
+```
+"
+"Write a function to get the n largest items from a dataset.
+
+```python
+def larg_nnum(list1: list, n: int) -> list:
+```
+"
+"Write a function to find the lateral surface area of a cylinder.
+
+```python
+def lateralsuface_cylinder(r: float, h: float) -> float:
+```
+"
+"Write a function to find the volume of a cube.
+```python
+def volume_cube(l: int) -> int:
+```
+"
+"Write a Python function to set all even bits of a given number.
+
+```python
+def even_bit_set_number(n: int) -> int:
+```
+"
+"Write a Python function that calculates the maximum number of right-angled triangles that can be formed within a given right-angled triangle.
+
+```python
+def No_of_Triangle(N: int, K: int) -> int:
+```
+"
+"Write a function to check for occurrences of records happening at the same time in the given tuples.
+
+```python
+def check_occurences(test_list: list[tuple]) -> dict:
+```
+"
+"Write a Python function to count the number of non-empty substrings of a given string.
+
+```python
+def number_of_substrings(str: str) -> int:
+```
+"
+"Write a function to find the number of possible sequences of length n such that each subsequent element is greater than or equal to twice the previous element, but less than or equal to m.
+
+```python
+def get_total_number_of_sequences(m: int, n: int) -> int:
+```
+"
+"Write a function that replaces the last element of a list with another list.
+
+```python
+def replace_list(list1: list, list2: list) -> list:
+```
+"
+"Write a function that creates a 3D array where each element is '*'.
+
+```python
+def array_3d(m: int, n: int, o: int) -> list[list[list[str]]]:
+```
+"
+"Write a function to count the total number of characters in a string.
+
+```python
+def count_charac(str1: str) -> int:
+```
+"
+"Write a function that sorts a given list based on the occurrence of the first element of the tuples.
+
+```python
+def sort_on_occurence(lst: list[tuple]) -> list:
+```
+"
+"Write a Python function to find the next perfect square greater than a given number.
+
+```python
+def next_Perfect_Square(N: int) -> int:
+```
+"
+"Write a function to find the maximum sum of a bitonic subsequence for a given array.
+
+```python
+def max_sum(arr: list[int], n: int) -> int:
+```
+"
+"Write a function to calculate the square root using the Babylonian method.
+Example:
+def babylonian_squareroot(number: float) -> float:
+    # your code
+    return number
+"
+"Write a function to find the length of the longest palindromic subsequence in a given string.
+
+```python
+def lps(str: str) -> int:
+```
+"
+"Write a function to calculate the harmonic sum of n-1.
+
+```python
+def harmonic_sum(n: int) -> float:
+```
+"
+"Write a function to find the intersection of two arrays using a lambda function.
+
+```python
+def intersection_array(array_nums1: list[int], array_nums2: list[int]) -> list[int]:
+```
+"
+"Write a Python function to count the occurrences of an element in a tuple.
+
+```python
+def count_X(tup: tuple, x: int) -> int:
+```
+"
+"Write a function that inserts an element before each element of a list.
+
+```python
+def insert_element(list: list, element: str) -> list:
+```
+"
+"Write a Python function to convert a complex number to constant coordinates.
+Example:
+```python
+def convert(numbers: int) -> tuple[float, float]:
+```
+"
+"Write a Python function to count the number of integers from a given list.
+
+```python
+def count_integer(list1: list) -> int:
+```
+"
+"Write a function to find all words in a given string that start with 'a' or 'e'.
+
+```python
+def words_ae(text: str) -> list[str]:
+```
+"
+"Write a function to choose a specific number of colors from three different colors and generate all combinations with repetition.
+
+```python
+def combinations_colors(l: list, n: int) -> list:
+```
+"
+"Write a Python function to count the number of prime numbers less than a given non-negative number.
+
+```python
+def count_Primes_nums(n: int) -> int:
+```
+"
+"Write a function to swap two numbers.
+
+Example:
+def swap_numbers(a: int, b: int) -> tuple[int, int]:
+    # your code
+    return a, b
+"
+"Write a function to find the number of odd elements in a given list using a lambda function.
+
+```python
+def count_odd(array_nums: list[int]) -> int:
+```
+"
+"Write a function that maximizes two tuples element-wise.
+
+```python
+def maximize_elements(test_tup1: tuple[tuple[int, int], ...], test_tup2: tuple[tuple[int, int], ...]) -> tuple[tuple[int, int], ...]:
+```
+"
+"Write a function to find the nth Newman–Shanks–Williams prime number.
+
+```python
+def newman_prime(n: int) -> int:
+```
+"
+"Write a function to perform element-wise division operation on the given tuples.
+
+```python
+def division_elements(test_tup1: tuple, test_tup2: tuple) -> tuple:
+```
+"
+"Write a function to split a list into two parts, given the length of the first part of the list.
+
+```python
+def split_two_parts(list1: list, L: int) -> tuple[list, list]:
+```"
+"Write a function to merge two dictionaries.
+
+Example:
+def merge_dict(d1: dict, d2: dict) -> dict:
+    # your code
+    return d1
+"
+"Write a function to calculate the age of a dog.
+
+Example:
+```python
+def dog_age(h_age: int) -> int:
+```
+"
+"Write a function that splits a list for every n-th element.
+
+```python
+def list_split(S: list, step: int) -> list:
+```
+"
+"Write a function to find the lateral surface area of a cube.
+
+```python
+def lateralsurface_cube(l: int) -> int:
+```
+"
+"Write a Python function to find the sum of the squares of the first n odd natural numbers.
+
+```python
+def square_Sum(n: int) -> int:
+```
+"
+"Write a function to find the n'th star number.
+
+```python
+def find_star_num(n: int) -> int:
+```
+"
+"Write a function to find the ASCII value of a character.
+
+```python
+def ascii_value(k: str) -> int:
+```
+"
+"Write a Python function to find the sum of even numbers present at even indices.
+
+```python
+def sum_even_and_even_index(arr: list[int], n: int) -> int:
+```
+"
+"Write a Python function to sum the fifth power of the first n even numbers.
+
+```python
+def even_Power_Sum(n: int) -> int:
+```
+"
+"Write a function to perform rear element extraction from a list of tuple records.
+
+```python
+def rear_extract(test_list: list[tuple]) -> list:
+```
+"
+"Write a function to subtract the elements of one tuple from the corresponding index of another tuple.
+
+```python
+def substract_elements(test_tup1: tuple, test_tup2: tuple) -> tuple:
+```
+"
+"Write a Python function to find the sum of binomial coefficients at even indices.
+
+```python
+def even_binomial_Coeff_Sum(n: int) -> int:
+```
+"
+"Write a Python function to find the position of the last removed element from the given array.
+
+```python
+def get_Position(a: list[int], n: int, m: int) -> int:
+```
+"
+"Write a function to find the volume of a cylinder.
+Example:
+```python
+def volume_cylinder(r: float, h: float) -> float:
+```
+"
+"Write a function to filter a dictionary based on its values.
+```python
+def dict_filter(dict: dict, n: int) -> dict:
+```"
+"Write a function to find the count of elements occurring before the first tuple record in the given tuple.
+
+Example:
+```python
+def count_first_elements(test_tup: tuple) -> int:
+```
+"
+"Write a function to find the nth decagonal number.
+
+```python
+def is_num_decagonal(n: int) -> int:
+```
+"
+"Write a function to search for an element in a given array using sequential search.
+
+```python
+def sequential_search(dlist: list, item: int) -> tuple[bool, int | None]:
+```
+"
+"Write a Python function to check if the elements of a given list are unique.
+
+```python
+def all_unique(test_list: list) -> bool:
+```
+"
+"Write a function to subtract two lists using map and a lambda function.
+Example:
+def sub_list(nums1: list[int], nums2: list[int]) -> list[int]:
+    # your code
+    return nums1
+"
+"Write a Python function that checks if the frequency of each digit is less than or equal to the digit itself.
+
+```python
+def validate(n: int) -> bool:
+```
+"
+"Write a function to check if all items in a list are equal to a given string.
+
+Example:
+```python
+def check_element(list: list[str], element: str) -> bool:
+```
+"
+"Write a function that matches a string containing an 'a' followed by two to three 'b's.
+
+Example:
+```python
+def text_match_two_three(text: str) -> str:
+```
+"
+"Write a function to find the largest sum of a contiguous subarray in a modified array formed by repeating the given array k times.
+
+```python
+def max_sub_array_sum_repeated(a: list[int], n: int, k: int) -> int:
+```
+"
+"Write a Python function to find the sum of squares of the first n even natural numbers.
+
+```python
+def square_Sum(n: int) -> int:
+```
+"
+"Write a function to count the array elements that have a modular inverse equal to themselves under the given prime number p.
+
+```python
+def modular_inverse(arr: list[int], N: int, P: int) -> int:
+```
+"
+"Write a Python function to calculate the number of odd days in a given year.
+
+```python
+def odd_Days(N: int) -> int:
+```
+"
+"Write a function to find the list with the maximum length.
+
+```python
+def max_length(list1: list[list[int]]) -> tuple[int, list[int]]:
+```
+"
+"Write a function to find the number of ways to paint a fence such that at most 2 adjacent posts have the same color for a given fence of n posts with k colors.
+
+```python
+def count_no_of_ways(n: int, k: int) -> int:
+```
+"
+"Write a Python function to find the quotient of two numbers.
+
+```python
+def find(n: int, m: int) -> int:
+```"
+"Write a function to calculate the length of the third side of a right-angled triangle.
+
+```python
+def otherside_rightangle(w: float, h: float) -> float:
+```
+"
+"Write a function to find the maximum numerical value in a mixed-type list.
+
+```python
+def max_val(listval: list) -> int:
+```
+"
+"Write a function to return the sum of all divisors of a number.
+
+```python
+def sum_div(number: int) -> int:
+```
+"
+"Write a Python function to count inversions in an array.
+
+```python
+def get_Inv_Count(arr: list[int], n: int) -> int:
+```
+"
+"Write a function to flatten a given nested list structure.
+Example:
+def flatten_list(list1: list) -> list:
+    # your code
+    return list1
+"
+"Write a function to find the nested list elements present in another list.
+Example:
+def intersection_nested_lists(l1: list, l2: list) -> list:
+    # your code
+    return l1
+"
+"Write a function to calculate the maximum aggregate from a list of tuples.
+
+```python
+def max_aggregate(stdata: list[tuple[str, int]]) -> tuple[str, int]:
+```
+"
+"Write a function to count all binary sequences of length 2n such that the sum of the first n bits is equal to the sum of the last n bits.
+
+```python
+def count_binary_seq(n: int) -> float:
+```
+"
+"Write a function to find the depth of a dictionary.
+
+```python
+def dict_depth(d: dict) -> int:
+```
+"
+"Write a Python function to find the most significant bit number which is a set bit.
+
+```python
+def set_Bit_Number(n: int) -> int:
+```
+"
+"Write a Python function that checks if two types of reverse calculations are the same or not.
+
+```python
+def solve(a: list[int], n: int) -> bool:
+```
+"
+"Write a Python function to find an element at a given index after a number of rotations.
+
+```python
+def find_Element(arr: list[int], ranges: list[list[int]], rotations: int, index: int) -> int:
+```
+"
+"Write a function that matches two words from a list of words starting with the letter 'P'.
+
+```python
+def start_withp(words: list[str]) -> tuple[str, str]:
+```
+"
+"Write a function to find the maximum sum of increasing prefixes from the prefix up to the ith index, and a given kth element that comes after i, i.e., k > i.
+
+```python
+def max_sum_increasing_subseq(a: list[int], n: int, index: int, k: int) -> int:
+```
+"
+"Write a function to get a clone of a tuple.
+
+Example:
+```python
+def colon_tuplex(tuplex: tuple, m: int, n: int) -> tuple:
+```
+"
+"Write a function to find the specified number of largest products from two lists.
+
+```python
+def large_product(nums1: list[int], nums2: list[int], N: int) -> list[int]:
+```
+"
+"Write a Python function to find the maximum of two numbers.
+
+Example:
+```python
+def maximum(a: int, b: int) -> int:
+```
+"
+"Write a function to convert a given string to a tuple.
+
+Example:
+```python
+def string_to_tuple(str1: str) -> tuple:
+```
+"
+"Write a Python function to set the leftmost unset bit.
+Example:
+```python
+def set_left_most_unset_bit(n: int) -> int:
+```
+"
+"Write a function to find the volume of a cone.
+Example:
+def volume_cone(r: float, h: float) -> float:
+    # your code
+    return
+"
+"Write a Python function to print the positive numbers in a list.
+
+Example:
+```python
+def pos_nos(list1: list[int]) -> list[int]:
+```
+"
+"Write a function to find the maximum sum such that no two selected numbers are adjacent for a given rectangular grid of size 2 x n.
+
+```python
+def max_sum_rectangular_grid(grid: list[list[int]], n: int) -> int:
+```
+"
+"Write a Python function to find the longest word with an even length in a given string.
+
+```python
+def find_Max_Len_Even(str: str) -> str:
+```
+"
+"Write a function to find the index of the last occurrence of a given number in a sorted array.
+
+```python
+def find_last_occurrence(A: list[int], x: int) -> int:
+```
+"
+"Write a function to return the modified run-length encoding from a list.
+
+```python
+def modified_encode(alist: list) -> list:
+```
+"
+"Write a Python function to find the maximum volume of a cuboid given the sum of its sides.
+
+```python
+def max_volume(s: int) -> int:
+```
+"
+"Write a function that uses regex to find all five-letter-long words in a given string.
+
+```python
+def find_long_word(text: str) -> list[str]:
+```
+"
+"Write a function to calculate the difference between the square of the sum of the first n natural numbers and the sum of the squares of the first n natural numbers.
+
+```python
+def sum_difference(n: int) -> int:
+```
+"
+"Write a function to find the Demlo number for a given number.
+
+```python
+def find_demlo(s: str) -> str:
+```
+"
+"Write a function to find all the index positions of the minimum value in a given list.
+
+```python
+def position_min(list1: list) -> list:
+```
+"
+"Write a function that rearranges the given array with alternating positive and negative items.
+
+```python
+def right_rotate(arr: list[int], n: int) -> list[int]:
+```
+"
+"Write a function that calculates the sum of alternate elements in a tuple.
+```python
+def sum_of_alternates(test_tuple: tuple) -> tuple:
+```
+"
+"Write a Python function to find the minimum number of squares that sum up to a given number.
+
+```python
+def get_Min_Squares(n: int) -> int:
+```
+"
+"Write a function to find the word with the most occurrences in a given list of strings.
+
+```python
+def most_occurrences(test_list: list[str]) -> str:
+```
+"
+"Write a function that checks if a triangle is a right-angled triangle.
+
+```python
+def check_isosceles(x: int, y: int, z: int) -> bool:
+```
+"
+"Write a function that rotates a given list to the left by a specified number of items.
+
+```python
+def rotate_left(list1: list, m: int, n: int) -> list:
+```
+"
+"Write a Python function to count the number of negative numbers in a list.
+Example:
+def neg_count(list: list[int]) -> int:
+    # your code
+    return 
+"
+"Write a function that uses regex to find three, four, and five-letter long words from a given string.
+
+```python
+def find_char(text: str) -> list[str]:
+```
+"
+"Write a Python function to count the unset bits of a given number.
+
+```python
+def count_unset_bits(n: int) -> int:
+```
+"
+"Write a function to calculate the character frequency of a given string.
+
+```python
+def char_frequency(str1: str) -> dict:
+```
+"
+"Write a Python function to sort a list of sublists according to the second element of the sublists.
+
+```python
+def Sort(sub_li: list[list[any]]) -> list[list[any]]:
+```
+"
+"Write a Python function to check if a triangle is valid, given its sides.
+
+```python
+def check_Validity(a: int, b: int, c: int) -> bool:
+```
+"
+"Write a function to find the sum of an arithmetic progression.
+
+```python
+def ap_sum(a: int, n: int, d: int) -> int:
+```
+"
+"Write a function to check if the given month name has 28 days.
+
+```python
+def check_monthnum(monthname1: str) -> bool:
+```
+"
+"Write a function that matches a word at the end of a string, with optional punctuation.
+
+```python
+def text_match_word(text: str) -> str:
+```
+"
+"Write a Python function to count the number of substrings with the same first and last characters.
+
+```python
+def check_Equality(s: str) -> int:
+```
+"
+"Write a Python function to find the highest occurring divisor within a given range.
+
+```python
+def find_Divisor(x: int, y: int) -> int:
+```
+"
+"Write a Python function to find the sum of the three smallest positive numbers from a given list of numbers.
+
+```python
+def sum_three_smallest_nums(lst: list[int]) -> int:
+```
+"
+"Write a function to convert a given set into an ordered tuple.
+
+Example:
+def set_to_tuple(s: set) -> tuple:
+    # your code
+    return
+"
+"Write a function to find the smallest range that includes at least one element from each of the given arrays.
+
+```python
+def __init__(self, lists: list[list[int]]) -> tuple[int, int]:
+```
+"
+"Write a function to count the number of letters and digits in a string.
+
+Example:
+```python
+def dig_let(s: str) -> tuple[int, int]:
+```
+"
+"Write a Python function to find the number of elements with odd factors within a specific range.
+
+```python
+def count_Odd_Squares(n: int, m: int) -> int:
+```
+"
+"Write a function to find the differences between two consecutive numbers in a given list.
+```python
+def diff_consecutivenums(nums: list[int]) -> list[int]:
+```"
+"Write a function to find the number entered as e ((n, k).
+
+```python
+def zigzag(n: int, k: int) -> int:
+```
+"
+"Write a Python function to count the number of squares in a rectangle.
+
+Example:
+
+```python
+def count_Squares(m: int, n: int) -> int:
+```
+"
+"Write a function that calculates the number of sequences of a given length that have non-negative prefix sums that can be generated by a given value.
+
+```python
+def bin_coff(n: int) -> int:
+```
+"
+"Write a Python function to check if the given string is a binary string.
+
+Example:
+```python
+def check(string: str) -> str:
+```
+"
+"Write a Python function to minimize the length of a string by removing occurrences of only one character.
+
+```python
+def minimum_Length(s: str) -> int:
+```
+"
+"Write a Python function to find the first element that occurs k times in a given array.
+
+```python
+def first_Element(arr: list[int], n: int, k: int) -> int:
+```
+"
+"Write a Python function to check if all the characters of a given string are unique.
+
+```python
+def unique_Characters(str: str) -> bool:
+```
+"
+"Write a function to remove a specific column from a given nested list.
+Example:
+```python
+def remove_column(list1: list[list[int]], n: int) -> list[list[int]]:
+```
+"
+"Write a function to find the nth term of an arithmetic progression.
+
+```python
+def tn_ap(a: int, n: int, d: int) -> int:
+```
+"
+"Write a Python function that counts the number of rectangles within a circle of radius r.
+
+```python
+def count_Rectangles(radius: int) -> int:
+```
+"
+"Write a function to find the third angle of a triangle.
+
+```python
+def find_angle(a: int, b: int) -> int:
+```
+"
+"Write a function that finds the maximum element from all the given tuple records.
+
+```python
+def find_max(test_list: list[tuple[int, int]]) -> int:
+```
+"
+"Write a function to find the modulo division of two lists using map and lambda functions.
+Example:
+```python
+def moddiv_list(nums1: list[int], nums2: list[int]) -> list[int]:
+```
+"
+"Write a Python function to verify if one root of a quadratic equation is twice the other.
+
+Example:
+```python
+def Check_Solution(a: int, b: int, c: int) -> str:
+```
+"
+"Write a function to find the nth Carol number.
+
+```python
+def get_carol(n: int) -> int:
+```
+"
+"Write a function to remove empty lists from a given list.
+
+```python
+def remove_empty(list1: list) -> list:
+```
+"
+"Write a Python function to find the item that appears the maximum number of times in a given list.
+
+```python
+def max_occurrences(nums: list[int]) -> int:
+```
+"
+"Write a function that adds the element K to each element of the tuples in the input list.
+
+```python
+def add_K_element(test_list: list[tuple[int,...]], K: int) -> list[tuple[int,...]]:
+```
+"
+"Write a function that finds the number of flips required to make the given binary string into a sequence of alternating characters.
+
+```python
+def make_flip(ch: str) -> int:
+```
+"
+"Write a Python function to count the number of digits in a given number.
+
+```python
+def count_Digit(n: int) -> int:
+```
+"
+"Write a Python function that finds the largest product of adjacent elements from a given list of integers.
+
+```python
+def adjacent_num_product(list_nums: list[int]) -> int:
+```
+"
+"Write a function to check if a binary tree is balanced.
+Example:
+```python
+def __init__(self, data: int) -> bool:
+```
+"
+"Write a function that repeats the given tuple n times.
+
+```python
+def repeat_tuples(test_tup: tuple, N: int) -> tuple:
+```
+"
+"Write a function that calculates the lateral surface area of a cuboid.
+
+Example:
+def lateralsurface_cuboid(l: int, w: int, h: int) -> int:
+    # your code
+    return
+"
+"Write a function that sorts a tuple by its float element.
+
+```python
+def float_sort(price: list[tuple[str, str]]) -> list[tuple[str, str]]:
+```
+"
+"Write a function to find the smallest missing element in a sorted array.
+
+```python
+def smallest_missing(A: list[int], left_element: int, right_element: int) -> int:
+```
+"
+"Write a function to sort a given list of elements in ascending order using the heap sort algorithm.
+
+```python
+def heap_assending(nums: list[int]) -> list[int]:
+```
+"
+"Write a function to find the volume of a cuboid.
+Example:
+def volume_cuboid(l: int, w: int, h: int) -> int:
+    # your code
+    return
+"
+"Write a function to print all permutations of a given string including duplicates.
+
+```python
+def permute_string(str: str) -> list[str]:
+```
+"
+"Write a function to round a given number to the nearest multiple of a specified number.
+
+```python
+def round_num(n: int, m: int) -> int:
+```
+"
+"Write a function to remove the tuple elements that appear multiple times and replace the duplicates with a custom value.
+
+```python
+def remove_replica(test_tup: tuple) -> tuple:
+```
+"
+"Write a Python function to remove all occurrences of a character in a given string.
+
+```python
+def remove_Char(s: str, c: str) -> str:
+```
+"
+"Write a Python function that moves the last element of a given list to the first position.
+
+```python
+def move_first(test_list: list) -> list:
+```
+"
+"Write a function to find the surface area of a cuboid.
+```python
+def surfacearea_cuboid(l: int, w: int, h: int) -> int:
+```
+"
+"Write a function to create a two-dimensional array.
+Example:
+def multi_list(rownum: int, colnum: int) -> list[list[int]]:
+    # your code
+    return rownum
+"
+"Write a function that sorts a list of lists by a given index of the inner lists.
+
+```python
+def index_on_inner_list(list_data: list[list], index_no: int) -> list[list]:
+```
+"
+"Write a function to find the number of rotations in a circularly sorted array.
+
+```python
+def find_rotation_count(A: list[int]) -> int:
+```
+"
+"Write a Python function to toggle all odd bits of a given number.
+
+Example:
+def even_bit_toggle_number(n: int) -> int:
+    # your code
+    return n
+"
+"Write a Python function to find the frequency of the smallest value in a given array.
+
+```python
+def frequency_Of_Smallest(n: int, arr: list[int]) -> int:
+```
+"
+"Write a function to find the n'th Perrin number using recursion.
+
+```python
+def get_perrin(n: int) -> int:
+```
+"
+"Write a function to find the minimum number of swaps required for bracket balancing in the given string.
+
+```python
+def swap_count(s: str) -> int:
+```
+"
+"Write a Python function to check if the hexadecimal number is even or odd.
+Example:
+```python
+def even_or_odd(N: str) -> str:
+```
+"
+"Write a Python function to find the highest power of 2 that is less than or equal to n.
+
+```python
+def highest_Power_of_2(n: int) -> int:
+```
+"
+"Write a function to find the n'th Lucas number.
+
+```python
+def find_lucas(n: int) -> int:
+```
+"
+"Write a function that inserts a given string at the beginning of all items in a list.
+
+```python
+def add_string(list: list, string: str) -> list:
+```
+"
+"Write a function to convert multiple lists into a nested dictionary.
+Example:
+def convert_list_dictionary(l1: list[str], l2: list[str], l3: list[int]) -> list[dict[str, dict[str, int]]]:
+    # your code
+    return l1
+"
+"Write a function to find the maximum possible sum using the given equation f(n) = max(f(n/2) + f(n/3) + f(n/4) + f(n/5)), n.
+
+```python
+def get_max_sum (n: int) -> int:
+```
+"
+"Write a function to find the list with the maximum length using a lambda function.
+Example:
+```python
+def max_length_list(input_list: list[list[any]]) -> tuple[int,list[any]]:
+```
+"
+"Write a function to check if the given tuple is distinct.
+
+```python
+def check_distinct(test_tup: tuple) -> bool:
+```
+"
+"Write a Python function to find the first non-repeating character in a given string.
+
+```python
+def first_non_repeating_character(str1: str) -> str | None:
+```
+"
+"Write a function to check if the given string starts and ends with the same character without using regex.
+
+```python
+def check_char(string: str) -> str:
+```
+"
+"Write a function to find the median of three given numbers.
+
+Example:
+```python
+def median_numbers(a: int, b: int, c: int) -> float:
+```
+"
+"Write a function to calculate the sum of the digits of each number in a given list.
+
+```python
+def sum_of_digits(nums: list[int]) -> int:
+```
+"
+"Write a function to perform a mathematical bitwise XOR operation on the given tuples.
+
+```python
+def bitwise_xor(test_tup1: tuple, test_tup2: tuple) -> tuple:
+```
+"
+"Write a function to extract the frequency of unique tuples from a given list, regardless of the order within the tuples.
+
+```python
+def extract_freq(test_list: list[tuple[int, int]]) -> int:
+```
+"
+"Write a function to add the tuple elements index-wise for the given two nested tuples.
+
+```python
+def add_nested_tuples(test_tup1: tuple[tuple[int, ...], ...], test_tup2: tuple[tuple[int, ...], ...]) -> tuple[tuple[int, ...], ...]:
+```
+"
+"Write a function to calculate the value of nCr % p.
+
+```python
+def ncr_modp(n: int, r: int, p: int) -> int:
+```
+"
+"Write a function to check if a URL is valid.
+
+```python
+def is_valid_URL(str: str) -> bool:
+```
+"
+"Write a Python function to find the minimum of two numbers.
+Example:
+def minimum(a: int, b: int) -> int:
+    # your code
+    return a
+"
+"Write a function that checks if an element exists within a tuple.
+
+```python
+def check_tuplex(tuplex: tuple, tuple1: str) -> bool:
+```
+"
+"Write a Python function to find the parity of a given number.
+Example:
+def find_Parity(x: int) -> str:
+    # your code
+    return x
+"
+"Write a function to rearrange the digits of a given number to create the next greater number.
+
+```python
+def rearrange_bigger(n: int) -> int:
+```
+"
+"Write a function to find k pairs consisting of one element from the first array and one element from the second array.
+
+```python
+def k_smallest_pairs(nums1: list[int], nums2: list[int], k: int) -> list[list[int]]:
+```
+"
+"Write a function to find the minimum product from pairs of tuples within a given list.
+
+```python
+def min_product_tuple(list1: list[tuple[int, int]]) -> int:
+```
+"
+"Write a function to find the minimum value in a given heterogeneous list.
+
+```python
+def min_val(listval: list) -> int:
+```
+"
+"Write a function that converts a given snake case string to camel case string using regex.
+
+```python
+def snake_to_camel(word: str) -> str:
+```
+"
+"Write a Python function to remove odd numbers from a given list.
+
+Example:
+
+```python
+def remove_odd(l: list[int]) -> list[int]:
+```
+"
+"Write a function to extract the n-th element from a given list of tuples.
+Example:
+```python
+def extract_nth_element(list1: list[tuple], n: int) -> list:
+```
+"
+"Write a python function to check if a value exists within a sequence.
+Example:
+def overlapping(list1: list, list2: list) -> bool:
+    # your code
+    return list1
+"
+"Write a Python function to find a pair with the maximum product from a given integer array.
+
+```python
+def max_Product(arr: list[int]) -> tuple[int, int]:
+```
+"
+"Write a function that calculates the maximum sum achievable by breaking down a given number into three parts and summing those parts.
+
+```python
+def breakSum(n: int) -> int:
+```
+"
+"Write a function that finds the common first element of a list of tuples.
+
+```python
+def group_tuples(Input: list[tuple]) -> list[tuple]:
+```
+"
+"Write a Python function to find the sub-list with the maximum length.
+
+```python
+def Find_Max(lst: list[list[str]]) -> list[str]:
+```
+"
+"Write a function to round each number in a given list of numbers and multiply the total sum by the length of the list.
+
+```python
+def round_and_sum(list1: list[float]) -> int:
+```
+"
+"Write a Python function to find the sum of cubes of the first n even numbers.
+Example:
+def cube_Sum(n: int) -> int:
+    # your code
+    return n
+"
+"Write a function that concatenates each element of a tuple with a delimiter.
+
+```python
+def concatenate_tuple(test_tup: tuple) -> str:
+```
+"
+"Write a Python function to find the average of the cubes of the first n natural numbers.
+
+```python
+def find_Average_Of_Cube(n: int) -> float:
+```
+"
+"Write a function to solve the gold mine problem.
+Example:
+def get_maxgold(gold: list[list[int]], m: int, n: int) -> int:
+    # your code
+    return gold
+"
+"Write a function that extracts only the rear index element of each string from the given tuple.
+
+```python
+def extract_rear(test_tuple: tuple) -> list:
+```
+"
+"Write a function to count the number of sublists containing a specific element.
+Example:
+def count_element_in_list(list1: list[list[int]], x: int) -> int:
+    # your code
+    return
+"
+"Write a function to filter odd numbers using a lambda function.
+Example:
+def filter_oddnumbers(nums: list[int]) -> list[int]:
+    # your code
+    return nums
+"
+"Write a function using regular expressions to convert a date from yyyy-mm-dd format to dd-mm-yyyy format.
+
+```python
+def change_date_format(dt: str) -> str:
+```
+"
+"Write a function to sort a given array using shell sort.
+```python
+def shell_sort(my_list: list[int]) -> list[int]:
+```
+"
+"Write a function to extract elements and tuples from two given tuples.
+
+```python
+def and_tuples(test_tup1: tuple, test_tup2: tuple) -> tuple:
+```
+"
+"Write a function to find the directrix of a parabola.
+
+```python
+def parabola_directrix(a: int, b: int, c: int) -> int:
+```
+"
+"Write a function that takes two lists and returns True if they have at least one common element.
+
+```python
+def common_element(list1: list, list2: list) -> bool:
+```
+"
+"Write a function to find the median of a trapezium.
+
+Example:
+```python
+def median_trapezium(base1: int, base2: int, height: int) -> float:
+```
+"
+"Write a function to check if the entered number is greater than the elements of the given array.
+
+Example:
+```python
+def check_greater(arr: list[int], number: int) -> str:
+```
+"
+"Write a function that matches a string containing one or more occurrences of the letter ""b"".
+
+```python
+def text_match_one(text: str) -> str:
+```
+"
+"Write a Python function to find the last digit of a given number.
+
+```python
+def last_Digit(n: int) -> int:
+```
+"
+"Write a Python function to print the negative numbers in a list.
+Example:
+```python
+def neg_nos(list1: list[int]) -> list[int]:
+```
+"
+"Write a function to remove characters at odd indices from a string.
+
+Example:
+```python
+def remove_odd(str1: str) -> str:
+```
+"
+"Write a function to count bidirectional tuple pairs.
+
+```python
+def count_bidirectional(test_list: list[tuple[int, int]]) -> int:
+```
+"
+"Write a function to convert a list of multiple integers into a single integer.
+Example:
+def multiple_to_single(L: list[int]) -> int:
+    # your code
+    return L
+"
+"Write a function to find all adverbs and their positions in a given sentence.
+
+Example:
+```python
+def find_adverb_position(text: str) -> tuple[int, int, str]:
+```
+"
+"Write a function to find the surface area of a cube.
+Example:
+```python
+def surfacearea_cube(l: int) -> int:
+```
+"
+"Write a function to find the ratio of positive numbers in an array of integers.
+
+```python
+def positive_count(nums: list[int]) -> float:
+```
+"
+"Write a Python function to find the largest negative number from a given list.
+
+```python
+def largest_neg(list1: list[int]) -> int:
+```
+"
+"Write a function to trim each tuple in the given tuple list by k.
+
+```python
+def trim_tuple(test_list: list[tuple], K: int) -> list[tuple]:
+```
+"
+"Write a function that performs index-wise multiplication of tuple elements from two given tuples.
+
+```python
+def index_multiplication(test_tup1: tuple, test_tup2: tuple) -> tuple:
+```
+"
+"Write a Python function to count how many times the elements of a list appear in a tuple.
+
+```python
+def count_Occurrence(tup: tuple, lst: list) -> int:
+```
+"
+"Write a function to find the cubes of the distinct elements of a list using a lambda function.
+
+```python
+def cube_nums(nums: list[int]) -> list[int]:
+```
+"
+"Write a function to calculate the sum of the series of numbers.
+
+Example:
+```python
+def cal_sum(n: int) -> int:
+```
+"
+"Write a python function to check if a triangle is valid given 3 points.
+
+```python
+def check_Triangle(x1: int, y1: int, x2: int, y2: int, x3: int, y3: int) -> str:
+```
+"
+"Write a function to extract strings of a specific length from a list of string values.
+
+```python
+def extract_string(str: list[str], l: int) -> list[str]:
+```
+"
+"Write a function that removes all whitespaces from a given string using regex.
+
+```python
+def remove_whitespaces(text1: str) -> str:
+```
+"
+"Write a function that returns the amount of loss if there is a loss given the actual cost and sale amount, otherwise returns None.
+
+```python
+def loss_amount(actual_cost: int, sale_amount: int) -> int | None:
+```
+"
+"Write a Python function to find the sum of even factors of a number.
+Example:
+def sumofFactors(n: int) -> int:
+    # your code
+    return n
+"
+"Write a function that matches a word containing 'z'.
+
+Example:
+```python
+def text_match_wordz(text: str) -> str:
+```
+"
+"Write a function to check if a given month number has 31 days.
+
+```python
+def check_monthnumb_number(monthnum2: int) -> bool:
+```
+"
+"Write a function to reverse the strings in a given list of string values.
+
+```python
+def reverse_string_list(stringlist: list[str]) -> list[str]:
+```
+"
+"Write a Python function to find the sublist with the minimum length.
+
+```python
+def Find_Min(lst: list[list[int]]) -> list[int]:
+```
+"
+"Write a function to find the area of a rectangle.
+
+```python
+def rectangle_area(l: int, b: int) -> int:
+```
+"
+"Write a function to remove uppercase substrings from a given string using regex.
+
+```python
+def remove_uppercase(str1: str) -> str:
+```
+"
+"Write a Python function to get the first element of each sublist.
+
+```python
+def Extract(lst: list[list[any]]) -> list[any]:
+```
+"
+"Write a Python function to count the number of uppercase characters in a given string.
+
+```python
+def upper_ctr(str: str) -> int:
+```
+"
+"Write a function to find all possible combinations of elements in a given list.
+```python
+def combinations_list(list1: list) -> list[list]:
+```"
+"Write a function to find the maximum product subarray of a given array.
+
+Example:
+```python
+def max_subarray_product(arr: list[int]) -> int:
+```
+"
+"Write a function that checks if all values are the same.
+
+```python
+def check_value(dict: dict, n: int) -> bool:
+```
+"
+"Write a function to remove empty items from a given dictionary.
+
+```python
+def drop_empty(dict1: dict) -> dict:
+```
+"
+"Write a function to find the peak element in the given array.
+
+Example:
+```python
+def find_peak_util(arr: list[int], n: int) -> int:
+```
+"
+"Write a Python function to convert a decimal number to an octal number.
+
+```python
+def decimal_to_Octal(deciNum: int) -> int:
+```
+"
+"Write a function to find the maximum product formed by multiplying the numbers in the longest increasing subsequence of the given array.
+
+```python
+def max_product(arr: list[int], n: int) -> int:
+```
+"
+"Write a function that finds the maximum profit that can be made from at most k stock transactions.
+
+```python
+def max_profit(price: list[int], k: int) -> int:
+```
+"
+"Write a function to add the elements of the given tuples pairwise.
+
+```python
+def add_pairwise(test_tup: tuple) -> tuple:
+```
+"
+"Write a Python function to find the remainder of array multiplication divided by n.
+
+```python
+def find_remainder(arr: list[int], lens: int, n: int) -> int:
+```
+"
+"Write a Python function to check if the given list contains consecutive numbers.
+
+Example:
+```python
+def check_Consecutive(l: list[int]) -> bool:
+```
+"
+"Write a function to find the tuple intersection of elements from a given list of tuples, regardless of their order.
+
+```python
+def tuple_intersection(test_list1: list[tuple], test_list2: list[tuple]) -> set[tuple]:
+```
+"
+"Write a function to replace characters in a string.
+
+```python
+def replace_char(str1: str, ch: str, newch: str) -> str:
+```
+"
+"Write a function to sort a counter based on its values.
+Example:
+def sort_counter(dict1: dict) -> list:
+    # your code
+    return dict1
+"
+"Write a Python function to find the sum of the largest and smallest values in a given array.
+
+```python
+def big_sum(nums: list[int]) -> int:
+```
+"
+"Write a Python function to convert a given string to lowercase.
+
+```python
+def is_lower(string: str) -> str:
+```
+"
+"Write a function to remove lowercase substrings from a given string.
+
+```python
+def remove_lowercase(str1: str) -> str:
+```
+"
+"Write a Python function to find the first digit of a given number.
+
+```python
+def first_Digit(n: int) -> int:
+```
+"
+"Write a Python function to find the most frequently occurring character in a given string.
+
+```python
+def get_max_occuring_char(str1: str) -> str:
+```
+"
+"Write a function that determines whether there is a subset of a given set whose sum is equal to a given sum.
+
+```python
+def is_subset_sum(set: list[int], n: int, sum: int) -> bool:
+```
+"
+"Write a function that uses regex to find a sequence of lowercase letters following an uppercase letter in a given string.
+
+```python
+def match(text: str) -> str:
+```
+"
+"Write a Python function to find the first natural number whose factorial is divisible by x.
+
+```python
+def first_Factorial_Divisible_Number(x: int) -> int:
+```
+"
+"Write a function that removes the matching tuples from two given tuples.
+
+```python
+def remove_matching_tuple(test_list1: list[tuple], test_list2: list[tuple]) -> list[tuple]:
+```
+"
+"Write a function to find the largest palindromic number in a given array.
+
+```python
+def is_palindrome(n: list[int], k: int) -> int:
+```
+"
+"Write a function to calculate binomial probability for a given number.
+Example:
+```python
+def nCr(n: int, r: int, p: float) -> float:
+```
+"
+"Write a function that sorts a list of tuples in ascending order based on the last element of each tuple.
+
+```python
+def sort_tuple(tup: list[tuple]) -> list[tuple]:
+```
+"
+"Write a function to find the area of a pentagon.
+
+```python
+def area_pentagon(a: float) -> float:
+```
+"
+"Write a Python function to find the frequency of the largest value in a given array.
+
+```python
+def frequency_Of_Largest(n: int, arr: list[int]) -> int:
+```
+"
+"Write a function that extracts all symmetric pairs from a given list of tuples.
+
+```python
+def extract_symmetric(test_list: list[tuple[int, int]]) -> set[tuple[int, int]]:
+```
+"
+"Write a function to find the sum of a geometric progression series.
+
+```python
+def sum_gp(a: int, n: int, r: int) -> int:
+```
+"
+"Write a function to search for an element in a given array using binary search.
+
+Example:
+
+```python
+def binary_search(item_list: list[int], item: int) -> bool:
+```
+"
+"Write a function to calculate a grid of hexagon coordinates where the function returns a list of lists containing 6 tuples of x, y point coordinates.
+
+```python
+def calculate_polygons(startx: int, starty: int, endx: int, endy: int, radius: int) -> list[list[tuple[float, float]]]:
+```"
+"Write a function to convert the given binary tuple to an integer.
+Example:
+```python
+def binary_to_integer(test_tup: tuple) -> str:
+```
+"
+"Write a function to remove lowercase substrings from a given string using regex.
+
+```python
+def remove_lowercase(str1: str) -> str:
+```
+"
+"Write a function that finds the smallest integers from a list of numbers using the heap queue algorithm.
+
+```python
+def heap_queue_smallest(nums: list[int], n: int) -> list[int]:
+```
+"
+"Write a function to find the surface area of a cone.
+
+```python
+def surfacearea_cone(r: float, h: float) -> float:
+```
+"
+"Write a Python function to find the greatest common divisor (GCD) of two positive integers.
+Example:
+def gcd(x: int, y: int) -> int:
+    # your code
+    return x
+"
+"Write a function to find the diameter of a circle.
+
+```python
+def diameter_circle(r: int) -> int:
+```
+"
+"Write a function that concatenates all elements of a given list into a string.
+
+```python
+def concatenate_elements(list: list[str]) -> str:
+```
+"
+"Write a function to find the minimum cost path to reach position (m, n) from (0, 0) in a given cost matrix cost[][].
+
+```python
+def min_cost(cost: list[list[int]], m: int, n: int) -> int:
+```
+"
+"Write a function to find the similar elements from two given tuple lists.
+
+```python
+def similar_elements(test_tup1: tuple, test_tup2: tuple) -> tuple:
+```
+"
+"Write a Python function to identify non-prime numbers.
+
+```python
+def is_not_prime(n: int) -> bool:
+```
+"
+"Write a function using the heap queue algorithm to find the largest integers from a list of numbers.
+Example:
+def heap_queue_largest(nums: list[int], n: int) -> list[int]:
+    # your code
+    return nums
+"
+"Write a function to find the number of ways to fill a 3xn board with 2x1 dominoes.
+
+```python
+def count_ways(n: int) -> int:
+```
+"
+"Write a Python function that checks if two numbers differ by only one bit position.
+
+```python
+def is_Power_Of_Two (x: int, y: int) -> bool:
+```
+"
+"Write a function that uses regex to find all words with a length of at least 4 characters in a string.
+
+```python
+def find_char_long(text: str) -> list[str]:
+```
+"
+"Write a function to find the square of each individual element of a list using a lambda function.
+Example:
+def square_nums(nums: list[int]) -> list[int]:
+    # your code
+    return nums
+"
+"Write a Python function to find the minimum number of rotations required to get the same string.
+
+```python
+def find_Rotations(str: str) -> int:
+```
+"
+"Write a function to get the n smallest items from a dataset.
+
+Example:
+```python
+def small_nnum(list1: list, n: int) -> list:
+```
+"

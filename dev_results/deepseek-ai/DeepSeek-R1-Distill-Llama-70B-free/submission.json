@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "response": "def max_chain_length(lst, n):\n    # Sort the list of pairs based on the second element\n    lst.sort(key=lambda x: x[1])\n    \n    # Dictionary to store the maximum chain length ending at each value\n    dp = {}\n    \n    max_length = 0\n    \n    for pair in lst:\n        s, e = pair\n        # The chain length ending at 'e' can be the chain ending at 's' plus one\n        current_length = dp.get(s, 0) + 1\n        # Update dp for 'e' if current_length is greater than the existing value\n        if e in dp:\n            if current_length > dp[e]:\n                dp[e] = current_length\n        else:\n            dp[e] = current_length\n        # Update the maximum length found so far\n        if dp[e] > max_length:\n            max_length = dp[e]\n    \n    return max_length\n\n# Example usage:\nlst = [[1, 2], [2, 3], [3, 4], [4, 5], [2, 4]]\nn = 5\nprint(max_chain_length(lst, n))  # Output: 4\n",
+        "score": 0.0
+    },
+    {
+        "id": 2,
+        "response": "def first_repeated_char(s):\n    seen = set()\n    for char in s:\n        if char in seen:\n            return char\n        seen.add(char)\n    return None\n\ndef check(test_id, test_val, expected):\n    assert test_val == expected, f\"Test {test_id}: Expected {expected}, got {test_val}\"\n\ndef main():\n    check(1, first_repeated_char('abba'), 'b')\n    check(2, first_repeated_char('aabb'), 'a')\n    check(3, first_repeated_char('abc'), None)\n    check(4, first_repeated_char('a'), None)\n    check(5, first_repeated_char('aa'), 'a')\n    check(6, first_repeated_char('abbc'), 'b')\n    check(7, first_repeated_char('abca'), 'a')\n",
+        "score": 0.0
+    },
+    {
+        "id": 3,
+        "response": "def get_ludic(n):\n    for num in range(n, 0, -1):\n        digits = list(str(num))\n        total = 0\n        for i in range(len(digits)):\n            digit = int(digits[i])\n            total += digit ** (i + 1)\n        if total == num:\n            return num\n    return -1\n\ndef check(test_id, test_val, expected):\n    assert test_val == expected, f\"Test {test_id}: Expected {expected}, got {test_val}\"\n\ndef main():\n    check(1, get_ludic(135), 135)\n    check(2, get_ludic(136), 135)\n    check(3, get_ludic(175), 175)\n    check(4, get_ludic(89), 89)\n    check(5, get_ludic(10), 9)\n    check(6, get_ludic(0), -1)\n    check(7, get_ludic(1), 1)\n    check(8, get_ludic(2), 2)\n",
+        "score": 0.0
+    },
+    {
+        "id": 4,
+        "response": "def reverse_words(s):\n    words = s.split()\n    reversed_words = words[::-1]\n    return ' '.join(reversed_words)\n\ndef check(test_id, test_val, expected):\n    assert test_val == expected, f\"Test {test_id}: Expected {expected}, got {test_val}\"\n\ndef main():\n    check(1, reverse_words(\"Hello World Python\"), \"Python World Hello\")\n    check(2, reverse_words(\"I am a programmer\"), \"programmer a am I\")\n    check(3, reverse_words(\"This is an example\"), \"example an is This\")\n",
+        "score": 0.0
+    },
+    {
+        "id": 5,
+        "response": "def prime_num(n):\n    \"\"\"প্রদত্ত পূর্ণসংখ্যাটি একটি মৌলিক সংখ্যা কিনা তা পরীক্ষা করার জন্য একটি ফাংশন লিখুন।\"\"\"\n    if n < 2:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\ndef check(test_id, test_val, expected):\n    assert test_val == expected, f\"Test {test_id}: Expected {expected}, got {test_val}\"\n\ndef main():\n    check(1, prime_num(2), True)\n    check(2, prime_num(1), False)\n    check(3, prime_num(9), False)\n    check(4, prime_num(13), True)\n    check(5, prime_num(15), False)\n    check(6, prime_num(17), True)\n",
+        "score": 0.0
+    },
+    {
+        "id": 6,
+        "response": "import math\n\ndef radian_degree(n):\n    \"\"\"Converts degrees to radians.\"\"\"\n    return n * math.pi / 180\n\ndef check(test_id, test_val, expected):\n    assert round(test_val, 4) == round(expected, 4), f\"Test {test_id}: Expected {expected}, got {test_val}\"\n\ndef main():\n    check(1, radian_degree(90), math.pi / 2)\n    check(2, radian_degree(180), math.pi)\n    check(3, radian_degree(0), 0)\n    check(4, radian_degree(45), math.pi / 4)\n    check(5, radian_degree(30), math.pi / 6)\n",
+        "score": 0.0
+    },
+    {
+        "id": 1,
+        "response": "def max_chain_length(lst, n):\n    \"\"\"Find the maximum chain length from a list of pairs.\"\"\"\n    if not lst:\n        return 0\n    # Sort the list based on the second element of each pair\n    lst.sort(key=lambda x: x[1])\n    max_length = 1\n    dp = [1] * len(lst)\n    \n    for i in range(len(lst)):\n        for j in range(i):\n            if lst[j][1] <= lst[i][0]:\n                if dp[i] < dp[j] + 1:\n                    dp[i] = dp[j] + 1\n        if dp[i] > max_length:\n            max_length = dp[i]\n    return max_length\n\ndef check(test_id, test_val, expected):\n    assert test_val == expected, f\"Test {test_id}: Expected {expected}, got {test_val}\"\n\ndef main():\n    # Test case 1\n    test1 = max_chain_length([(5,7), (7,9), (6,8)], 3)\n    check(1, test1, 2)\n    \n    # Test case 2\n    test2 = max_chain_length([(1,2), (2,3), (3,4)], 3)\n    check(2, test2, 3)\n    \n    # Test case 3\n    test3 = max_chain_length([], 0)\n    check(3, test3, 0)\n    \n    # Test case 4\n    test4 = max_chain_length([(1,3)], 1)\n    check(4, test4, 1)\n    \n    # Test case 5 - Corrected Expected Output\n    test5 = max_chain_length([(1,3), (2,4), (5,6)], 3)\n    check(5, test5, 2)  # Corrected expected value from 1 to 2\n\n",
+        "score": 0.0
+    },
+    {
+        "id": 1,
+        "response": "def max_chain_length(lst, n):\n    \"\"\"Finds the longest chain of pairs where each pair's first element is greater than or equal to the previous pair's second element.\"\"\"\n    # Sort the pairs based on the second element\n    lst.sort(key=lambda x: x[1])\n    \n    # Initialize DP array where dp[i] represents the length of the longest chain ending at i\n    dp = [1] * n\n    \n    for i in range(n):\n        for j in range(i):\n            if lst[i][0] >= lst[j][1]:\n                dp[i] = max(dp[i], dp[j] + 1)\n    \n    return max(dp) if n > 0 else 0\n\ndef check(test_id, test_val, expected):\n    assert test_val == expected, f\"Test {test_id}: Expected {expected}, got {test_val}\"\n\ndef main():\n    # Test Case 1\n    lst1 = [(5, 24), (15, 28), (27, 40), (50, 50)]\n    check(1, max_chain_length(lst1, 4), 3)\n    \n    # Test Case 2\n    lst2 = [(1, 4), (2, 3), (3, 4)]\n    check(2, max_chain_length(lst2, 3), 2)\n    \n    # Test Case 3\n    lst3 = [(1, 2), (2, 3), (3, 4)]\n    check(3, max_chain_length(lst3, 3), 3)\n    \n    # Test Case 4: Empty list\n    lst4 = []\n    check(4, max_chain_length(lst4, 0), 0)\n    \n    # Test Case 5: Single pair\n    lst5 = [(10, 20)]\n    check(5, max_chain_length(lst5, 1), 1)\n\n",
+        "score": 0.0
+    }
+]

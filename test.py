@@ -1,0 +1,1 @@
+test_list = test_list.apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
